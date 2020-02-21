@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = tvos_deployment
   s.requires_arc = true
   
-  s.default_subspecs = 'PINCache'
+  s.default_subspecs = 'PINCache', 'Core'
   
   ### Subspecs
   s.subspec 'Core' do |cs|
